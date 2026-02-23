@@ -5,5 +5,5 @@ declare(strict_types=1);
 use Illuminate\Support\Facades\Route;
 
 Route::middleware(['throttle'])->group(function () {
-    Route::view('/', 'landing')->name('landing');
+    Route::view('/', 'index')->name('index');
 });

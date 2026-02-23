@@ -19,7 +19,7 @@
             href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
             rel="stylesheet">
         <link rel="icon" href="{{ Vite::asset('resources/images/classen-logo.svg') }}" type="image/svg+xml">
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/js/app.js'])
     </head>
 
     <body>
@@ -30,7 +30,7 @@
             id="header">
             <div class="max-w-7xl mx-auto px-8 flex items-center justify-between h-19">
                 <div class="flex items-center gap-4">
-                    <img src="{{ Vite::asset('resources/images/classen-logo.svg') }}" alt="Classen"
+                    <img loading="lazy" src="{{ Vite::asset('resources/images/classen-logo.svg') }}" alt="Classen"
                         class="h-8.5 logo-invert">
                     <span
                         class="text-[0.6rem] font-bold tracking-[1.5px] uppercase text-classen-yellow border border-classen-yellow/40 px-2.5 py-1 rounded-[3px] whitespace-nowrap">Hivatalos
@@ -63,7 +63,8 @@
         <!-- ===== HERO ===== -->
         <section class="relative min-h-screen flex items-center bg-classen-dark overflow-hidden">
             <div class="absolute inset-0">
-                <img src="https://admin.classen.cegem360.hu/wp-content/uploads/2024/01/Linea-Premium-aranzacja.jpg"
+                <img loading="lazy"
+                    src="https://admin.classen.cegem360.hu/wp-content/uploads/2024/01/Linea-Premium-aranzacja.jpg"
                     alt="Classen beltéri ajtó elegáns enteriőr" loading="eager"
                     class="w-full h-full object-cover opacity-30 saturate-[0.8]">
             </div>
@@ -128,14 +129,16 @@
                             <a href="#kapcsolat" class="btn btn-outline btn-lg">Kapcsolatfelvétel</a>
                         </div>
                         <div class="official-badge-dark mt-9">
-                            <img src="{{ Vite::asset('resources/images/CLASSEN-Group.png') }}" alt="Classen">
+                            <img loading="lazy" src="{{ Vite::asset('resources/images/CLASSEN-Group.png') }}"
+                                alt="Classen">
                             <div class="official-badge-divider"></div>
                             <div class="official-badge-text">Hivatalos magyarországi forgalmazó<br><strong>Arcadia 98
                                     Kft.</strong></div>
                         </div>
                     </div>
                     <div class="hero-image relative flex justify-center items-center">
-                        <img src="https://admin.classen.cegem360.hu/wp-content/uploads/2024/01/Linea-Premium.jpg"
+                        <img loading="lazy"
+                            src="https://admin.classen.cegem360.hu/wp-content/uploads/2024/01/Linea-Premium.jpg"
                             alt="Classen Linea Premium ajtó"
                             class="max-h-[72vh] rounded-[20px] shadow-[0_48px_96px_rgba(0,0,0,0.5)]">
                         <div
@@ -215,7 +218,8 @@
                     </div>
                     <div class="animate">
                         <div class="official-badge mb-7">
-                            <img src="{{ Vite::asset('resources/images/CLASSEN-Group.png') }}" alt="Classen">
+                            <img loading="lazy" src="{{ Vite::asset('resources/images/CLASSEN-Group.png') }}"
+                                alt="Classen">
                             <div class="official-badge-divider"></div>
                             <div class="official-badge-text">Hivatalos forgalmazó<br><strong>Arcadia 98 Kft.</strong>
                             </div>
@@ -300,7 +304,8 @@
                     <a href="https://arcadia98.hu/kollekciok/Evelin" target="_blank"
                         class="group relative rounded-[20px] overflow-hidden bg-white shadow-sm transition-all duration-350 ease-in-out hover:-translate-y-2.5 hover:shadow-xl block animate">
                         <div class="relative h-85 overflow-hidden">
-                            <img src="https://admin.classen.cegem360.hu/wp-content/uploads/2025/10/classen-evelin.jpg"
+                            <img loading="lazy"
+                                src="https://admin.classen.cegem360.hu/wp-content/uploads/2025/10/classen-evelin.jpg"
                                 alt="Evelin kollekció" loading="lazy"
                                 class="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-[1.08]">
                             <span
@@ -321,8 +326,9 @@
                     <a href="https://arcadia98.hu/kollekciok/Mamba" target="_blank"
                         class="group relative rounded-[20px] overflow-hidden bg-white shadow-sm transition-all duration-350 ease-in-out hover:-translate-y-2.5 hover:shadow-xl block animate animate-delay-1">
                         <div class="relative h-85 overflow-hidden">
-                            <img src="https://admin.classen.cegem360.hu/wp-content/uploads/2025/10/classen-mamba.jpg"
-                                alt="Mamba kollekció" loading="lazy"
+                            <img loading="lazy"
+                                src="https://admin.classen.cegem360.hu/wp-content/uploads/2025/10/classen-mamba.jpg"
+                                alt="Mamba kollekció"
                                 class="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-[1.08]">
                             <span
                                 class="absolute top-4 left-4 bg-classen-yellow text-classen-dark text-[0.65rem] font-bold tracking-[1.2px] uppercase py-1.5 px-3.5 rounded">Új
@@ -809,7 +815,8 @@
                 </div>
                 <div class="mt-7 flex justify-center">
                     <div class="official-badge-dark">
-                        <img src="{{ Vite::asset('resources/images/CLASSEN-Group.png') }}" alt="Classen">
+                        <img loading="lazy" src="{{ Vite::asset('resources/images/CLASSEN-Group.png') }}"
+                            alt="Classen">
                         <div class="official-badge-divider"></div>
                         <div class="official-badge-text">Hivatalos webshop<br><strong>Arcadia98.hu</strong></div>
                     </div>
@@ -946,8 +953,8 @@
             <div class="max-w-7xl mx-auto px-8">
                 <div class="b2b-grid grid grid-cols-2 gap-20 items-center relative z-2">
                     <div class="animate">
-                        <img src="{{ Vite::asset('resources/images/CLASSEN-Group.png') }}" alt="Classen"
-                            class="h-7.5 mb-5 logo-invert opacity-70">
+                        <img loading="lazy" src="{{ Vite::asset('resources/images/CLASSEN-Group.png') }}"
+                            alt="Classen" class="h-7.5 mb-5 logo-invert opacity-70">
                         <div class="section-label">B2B Partnerprogram</div>
                         <h2 class="section-title text-white">Legyen partnerünk!</h2>
                         <p class="text-white/60 text-[1.05rem] leading-[1.75] mb-10">Asztalosoknak, kivitelezőknek és
@@ -1100,8 +1107,10 @@
         <!-- ===== FOOTER CTA ===== -->
         <div class="py-18 bg-classen-yellow">
             <div class="footer-cta-inner max-w-7xl mx-auto px-8 text-center">
-                <div class="mb-5"><img src="{{ Vite::asset('resources/images/CLASSEN-Group.png') }}" alt="Classen"
-                        class="h-9 mx-auto"></div>
+                <div class="mb-5">
+                    <img loading="lazy" src="{{ Vite::asset('resources/images/CLASSEN-Group.png') }}" alt="Classen"
+                        class="h-9 mx-auto">
+                </div>
                 <h2 class="font-heading font-semibold text-classen-dark mb-3.5"
                     style="font-size:clamp(1.5rem,3vw,2.4rem)">Ne halassza tovább – találja meg álmai ajtaját!</h2>
                 <p class="text-classen-dark opacity-65 mb-8 text-base">A teljes Classen kínálat egy helyen, az Arcadia
