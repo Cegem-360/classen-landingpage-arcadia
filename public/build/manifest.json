@@ -1,0 +1,28 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-Bdrf6VaP.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/images/CLASSEN-Group.png": {
+    "file": "assets/CLASSEN-Group-B858sw98.png",
+    "src": "resources/images/CLASSEN-Group.png"
+  },
+  "resources/images/classen-logo.svg": {
+    "file": "assets/classen-logo-C-Z16H_G.svg",
+    "src": "resources/images/classen-logo.svg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CULjTRBx.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-Bdrf6VaP.css"
+    ]
+  }
+}
