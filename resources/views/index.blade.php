@@ -625,45 +625,40 @@
                             Iridium — Prémium laminált</h3>
                         <div class="flex flex-wrap gap-4.5">
                             <div class="color-swatch w-27.5 text-center">
-                                <div class="color-swatch-box relative w-27.5 h-18 rounded-lg shadow-sm overflow-hidden transition-all duration-350 hover:scale-[1.08] hover:shadow-md cursor-default stock"
+                                <div class="color-swatch-box relative w-27.5 h-18 rounded-lg shadow-sm overflow-hidden transition-all duration-350 hover:scale-[1.08] hover:shadow-md cursor-default"
                                     style="background:#eeebe5"></div>
-                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">Fehér
-                                    matt</span>
+                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">Uni
+                                    White</span>
                             </div>
                             <div class="color-swatch w-27.5 text-center">
                                 <div class="color-swatch-box relative w-27.5 h-18 rounded-lg shadow-sm overflow-hidden transition-all duration-350 hover:scale-[1.08] hover:shadow-md cursor-default"
-                                    style="background:#f0ece0"></div>
-                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">Hófehér
-                                    kőris</span>
+                                    style="background:#c5b49a"></div>
+                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">Uni
+                                    Cashmere</span>
                             </div>
                             <div class="color-swatch w-27.5 text-center">
                                 <div class="color-swatch-box relative w-27.5 h-18 rounded-lg shadow-sm overflow-hidden transition-all duration-350 hover:scale-[1.08] hover:shadow-md cursor-default"
-                                    style="background:#a09080"></div>
-                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">Barna
-                                    kőris</span>
-                            </div>
-                            <div class="color-swatch w-27.5 text-center">
-                                <div class="color-swatch-box relative w-27.5 h-18 rounded-lg shadow-sm overflow-hidden transition-all duration-350 hover:scale-[1.08] hover:shadow-md cursor-default stock"
-                                    style="background:#5a5550"></div>
-                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">Grafit
-                                    kőris</span>
+                                    style="background:#7d9478"></div>
+                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">Uni
+                                    Green</span>
                             </div>
                             <div class="color-swatch w-27.5 text-center">
                                 <div class="color-swatch-box relative w-27.5 h-18 rounded-lg shadow-sm overflow-hidden transition-all duration-350 hover:scale-[1.08] hover:shadow-md cursor-default"
-                                    style="background:#6e4830"></div>
-                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">Marone
-                                    tölgy</span>
-                            </div>
-                            <div class="color-swatch w-27.5 text-center">
-                                <div class="color-swatch-box relative w-27.5 h-18 rounded-lg shadow-sm overflow-hidden transition-all duration-350 hover:scale-[1.08] hover:shadow-md cursor-default stock"
-                                    style="background:#3a2a1a"></div>
-                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">Wenge</span>
+                                    style="background:#505862"></div>
+                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">Uni
+                                    Graphite</span>
                             </div>
                             <div class="color-swatch w-27.5 text-center">
                                 <div class="color-swatch-box relative w-27.5 h-18 rounded-lg shadow-sm overflow-hidden transition-all duration-350 hover:scale-[1.08] hover:shadow-md cursor-default"
                                     style="background:#1a1a1a"></div>
-                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">UNI
+                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">Uni
                                     Black</span>
+                            </div>
+                            <div class="color-swatch w-27.5 text-center">
+                                <div class="color-swatch-box relative w-27.5 h-18 rounded-lg shadow-sm overflow-hidden transition-all duration-350 hover:scale-[1.08] hover:shadow-md cursor-default"
+                                    style="background:#c8a86e"></div>
+                                <span class="text-[0.7rem] font-medium text-classen-muted leading-[1.35]">Grandson
+                                    Oak</span>
                             </div>
                         </div>
                     </div>
