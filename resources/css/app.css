@@ -8,9 +8,9 @@
 @theme {
     --color-classen-dark: #1a1a1a;
     --color-classen-charcoal: #2d2d2d;
-    --color-classen-yellow: #ffd100;
-    --color-classen-yellow-hover: #e6bc00;
-    --color-classen-yellow-soft: rgba(255, 209, 0, 0.08);
+    --color-classen-yellow: #d0c3b4;
+    --color-classen-yellow-hover: #bfb2a3;
+    --color-classen-yellow-soft: rgba(208, 195, 180, 0.08);
     --color-classen-gold: #c5a44e;
     --color-classen-light: #f9f8f5;
     --color-classen-warm: #f2efe8;
@@ -110,7 +110,7 @@
     .btn-yellow:hover {
         @apply bg-classen-yellow-hover;
         transform: translateY(-2px);
-        box-shadow: 0 12px 32px rgba(255, 209, 0, 0.35);
+        box-shadow: 0 12px 32px rgba(208, 195, 180, 0.35);
     }
 
     .btn-dark {

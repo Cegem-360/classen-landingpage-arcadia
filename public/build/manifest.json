@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-Bdrf6VaP.css",
+    "file": "assets/app-BcZsfvMc.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "name": "app",
@@ -17,12 +17,12 @@
     "src": "resources/images/classen-logo.svg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-CULjTRBx.js",
+    "file": "assets/app-CZZ_N6GX.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-Bdrf6VaP.css"
+      "assets/app-BcZsfvMc.css"
     ]
   }
 }
